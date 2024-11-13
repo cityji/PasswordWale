@@ -14,7 +14,7 @@ const mongoUri = process.env.MONGO_URI;
 const app = express();
 const port = process.env.PORT || 5000;
 
-const allowedOrigins = ['https://lockcraft.onrender.com', 'http://localhost:5173'];
+const allowedOrigins = ['https://PasswordWale.onrender.com', 'http://localhost:5173'];
 
 
 // Auth0 configuration

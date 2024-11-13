@@ -1,4 +1,4 @@
-# LockCraft
+# PasswordWale
 ## A Complete Password Manager
 The Password Manager is a secure web application designed to help users manage their passwords efficiently. It allows users to save, retrieve, update, and delete passwords for various accounts securely. The application employs encryption to protect data and uses Auth0 for authentication, ensuring that only authorized users can access their information.
 
@@ -123,7 +123,7 @@ The Password Manager is a secure web application designed to help users manage t
 
 ### Access the application
   - Open your web browser and navigate to http://localhost:5173.
-  - live url link : https://lockcraft.onrender.com/
+  - live url link : https://PasswordWale.onrender.com/
 
 # Acknowledgments
 * Auth0 for authentication services

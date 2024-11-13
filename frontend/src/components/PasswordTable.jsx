@@ -75,7 +75,7 @@ export default function PasswordTable({ passwordArray, setPasswordArray, setForm
         if (confirmation) {
             const token = await getAccessTokenSilently();
             try {
-                const response = await fetch("https://lockcraft-backend.onrender.com", {
+                const response = await fetch("https://PasswordWale-backend.onrender.com", {
                     method: "DELETE",
                     headers: {
                         "Content-Type": "application/json",
