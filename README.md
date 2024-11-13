@@ -123,7 +123,12 @@ The Password Manager is a secure web application designed to help users manage t
 
 ### Access the application
   - Open your web browser and navigate to http://localhost:5173.
-  - live url link : https://PasswordWale.onrender.com/
+  - live url link : https://LockCraft.onrender.com/
+  -githb link : https://github.com/cityji/PasswordWale
+  -render : https://dashboard.render.com/
+  - Auth0 : https://auth0.com/
+  - MongoDB : https://cloud.mongodb.com/v2/672bba667a6ebf785b2a2960#/overview
+  
 
 # Acknowledgments
 * Auth0 for authentication services

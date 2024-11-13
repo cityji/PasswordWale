@@ -34,7 +34,7 @@ export function Manager() {
         setLoadingPasswords(true);
         try {
             const token = await getAccessTokenSilently();
-            const response = await fetch("https://PasswordWale-backend.onrender.com", {
+            const response = await fetch("https://LockCraft-backend.onrender.com", {
                 method: "GET",
                 headers: {
                     Authorization: `Bearer ${token}`
@@ -154,7 +154,7 @@ export function Manager() {
                 } else if (editMode) {
                     // Update existing password
                     const updatedPassword = { ...form, additionalFields: inputFields, _id: editMode };
-                    await fetch(`https://PasswordWale-backend.onrender.com`, {
+                    await fetch(`https://LockCraft-backend.onrender.com`, {
                         method: "PUT",
                         headers: {
                             "Content-Type": "application/json",
@@ -184,7 +184,7 @@ export function Manager() {
                 } else {
                     const newPassword = { ...form, additionalFields: inputFields, id: uuidv4() };
 
-                    await fetch("https://PasswordWale-backend.onrender.com", {
+                    await fetch("https://LockCraft-backend.onrender.com", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
